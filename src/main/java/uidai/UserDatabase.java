@@ -18,7 +18,7 @@ public class UserDatabase {
 	
 	private String url = "jdbc:mysql://localhost/";
 	private String user = "root";
-	private String password = "shubh@0407";
+	private String password = "shubh****";
 
 	//  declare and initialize sql query for inserting data and printing final address.
 	private static final String insert_query = "insert into address(aadharNo, hNo, street, area, landmark, town, subDistrict, district, state, pin, finalAddress) values (?,?,?,?,?,?,?,?,?,?,?)";
